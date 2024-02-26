@@ -1,4 +1,6 @@
 import FormGroup from "./forms";
+import Button from "./Button/Button";
+
 export default function Registration() {
   return (
     <main>
@@ -36,10 +38,9 @@ export default function Registration() {
           placeholder="Введите Пароль ещё раз"
         />
       </div>
-
-      <div className="button">
-        <button className="button-registration">регистрация</button>
-      </div>
+      
+      <Button>Регистрация</Button>
+      
     </div>
     </main>
     
